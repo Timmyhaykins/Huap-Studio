@@ -1,0 +1,59 @@
+@media screen and (min-width: 991px) {
+  nav ul {
+    display: block;
+  }
+
+  nav button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  nav ul {
+    display: none;
+  }
+
+  nav button {
+    display: inline-block;
+  }
+
+  .projects .discover {
+    flex-direction: column;
+  }
+
+  .projects .discover button {
+    margin: 20px 0;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+  }
+
+  .contact form {
+    padding: 50px 0;
+  }
+
+  .our-work button {
+    width: 200px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer p {
+    margin-bottom: 10px;
+  }
+
+  footer li {
+    padding: 8px;
+  }
+}

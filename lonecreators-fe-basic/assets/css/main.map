@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_base.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/pages/_landing.scss"
+	],
+	"sourcesContent": [
+		"@import \"./base/variables\";\r\n@import \"./base/base\";\r\n@import \"./base/mixins\";\r\n\r\n@import \"./pages/landing\";\r\n",
+		"/****** COLORS ****/\r\n$black: #000;\r\n$white: #fff;\r\n\r\n/******  SIZES ****/\r\n$regular: 1rem;\r\n",
+		"* {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tbox-sizing: border-box;\r\n}\r\nbody {\r\n\twidth: 100%;\r\n\theight: 100%;\r\n\tfont-size: 1rem;\r\n\tbackground-color: $white;\r\n\tfont-family: \"Poppins\", sans-serif;\r\n}\r\n",
+		"",
+		""
+	],
+	"mappings": "ACAA,oBAAoB;AAIpB,oBAAoB;;ACJpB,AAAA,CAAC,CAAC;EACD,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;EACX,UAAU,EAAE,UAAW;CACvB;;;AACD,AAAA,IAAI,CAAC;EACJ,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;EACb,SAAS,EAAE,IAAK;EAChB,gBAAgB,EDPT,IAAI;ECQX,WAAW,EAAE,qBAAsB;CACnC",
+	"names": []
+}
